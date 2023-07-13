@@ -1,0 +1,248 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: #09040a;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.section-1 {
+    background: #14153f;
+    height: 100vh;
+    width: 100vw;
+    padding: 70px;
+    box-sizing: border-box;
+}
+
+.section-1 .sub-1{
+    background: #f5f1ef;
+    height: 380px;
+    width: 600px;
+    margin-left: 300px;
+    padding-top: 50px;
+    border-radius: 20px;
+    display: flex;
+}
+
+
+.left-side{
+    background: #8a8b7923;
+    height: 90px;
+    width: 95px;
+    margin-top: 45px;
+    margin-right: 100px;
+    margin-left: 20px;
+    padding: 50px;
+    border-radius: 50%;
+}
+
+.right-side{
+    height: 400px;
+    width: 300px;
+   text-align: center;
+}
+
+h2{
+    margin-top: 10px;
+}
+
+.form{
+    margin-top: 10px;
+
+}
+
+.form input{
+    padding: 5px;
+    border-radius: 15px;
+    border: none;
+    width: 180px;
+}
+a{
+    text-decoration: none;
+    color: #10b90a;
+}
+
+button{
+    padding: 5px;
+    border-radius: 15px;
+    border: none;
+    width: 185px;
+    background: #1abb15;
+}
+.section-2{
+    background: #03011b;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.header{
+    padding-top: 10px;
+}
+
+.logo {
+    float: left;
+    margin-left: 50px;
+    display: flex;
+}
+
+.logo p{
+    color: aquamarine;
+}
+
+.logo-text{
+    float: right;
+    color: aquamarine;
+}
+.header .logo-text li{
+    display: inline;
+    margin: 0px 25px;
+
+}
+.button-2{
+    background: #2e51ec;
+    width: 100px;
+    height: 30px;
+    border-radius: 0px;
+    margin-right: 50px;
+}
+
+.section-2 .sub-1{
+    height: 450px;
+    width: 400px;
+    margin-top: 210px;
+    float: left;
+    position: relative;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 2em;
+    color: #f5f1ef;
+}
+
+p{
+    color: #534e4b;
+}
+.but-1{
+    background: #f5f1ef;
+}
+.but-2{
+    background: #534e4b;
+}
+
+.section-2 .sub-2{
+    height: 450px;
+    width: 400px;
+    background: #160ab9;
+    margin: 75px;
+    float: right;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.sub-2 .circle{
+    height: 45%;
+    width: 50%;
+    position: absolute;
+    background: yellow;
+    border-radius: 50%;
+    left: 250px;
+    top: 270px;
+}
+
+.sub-2 .sub-a{
+    background: #1b1a1aa8;
+    height: 210px;
+    width: 245px;
+    position: absolute;
+    top: 120px;
+    margin: 30px;
+    display: flex;
+}
+.sub-2 picture{
+    position: relative;
+    z-index: 1;
+}
+
+h5{
+    color: #f5f1ef;
+    margin-top: 5px;
+    float: left;
+}
+
+.trans {
+    margin-left: 10px;
+    position: absolute;
+}
+
+.trans p{
+    background: #2e51ec;
+    height: 17px;
+    width: 11px;
+    padding: 3px;
+    border-radius: 50%;
+    float: right;
+    margin-left: 90px;
+
+}
+
+
+.sub-2 .sub-a p{
+    flex-direction: row;
+    color: #f5f1ef;
+}
+
+.imgs{
+    float: left;
+    margin: 20px;
+    margin-top: 35px;
+
+}
+
+.price{
+    float: right;
+    margin: 20px;
+    margin-left: 70px;
+    margin-top: 40px;
+
+}
+.img1{
+    float: left;
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+.price1{
+    float: right;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    
+}
+
+.img2{
+    float: left;
+    display: flex;
+    
+}
+.price2{
+    float: right;
+    margin-left: 55px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.img3{
+    float: left;
+    display: flex;
+    
+}
+.price3{
+    float: right;
+    margin-left: 50px;
+}
